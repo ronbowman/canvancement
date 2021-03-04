@@ -261,8 +261,8 @@ var QuizWiz = function(config) {
     // advance.appendChild(text);
     var icon = D.createElement('i');
     icon.classList.add('icon-mini-arrow-right', namespace + '_next');
-    advance.style.paddingLeft = '1px';
-    advance.style.paddingRight = '1px';
+    advance.style.paddingLeft = '5px';
+    advance.style.paddingRight = '5px';
     advance.appendChild(icon);
     advance.addEventListener('click', f);
     return advance;
