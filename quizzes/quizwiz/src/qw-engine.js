@@ -417,7 +417,7 @@ var QuizWiz = function(config) {
     if (e.target.value.length === 0) {
       var divElement = e.target.parentNode;
       divElement.style.display = 'block';
-      e.target.style.width = '98%';
+      e.target.style.width = '58%';
     }
   }
 
